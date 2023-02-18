@@ -1,0 +1,23 @@
+{
+  "name": "desn3037-exp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeojinMAC/DESN3037-Exp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YeojinMAC/DESN3037-Exp/issues"
+  },
+  "homepage": "https://github.com/YeojinMAC/DESN3037-Exp#readme",
+  "dependencies": {
+    "polymer-cli": "^1.9.11",
+    "webcomponent-qr-code": "^1.1.1"
+  }
+}
