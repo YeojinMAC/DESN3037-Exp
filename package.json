@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/YeojinMAC/DESN3037-Exp#readme",
   "dependencies": {
+    "@google-web-components/google-chart": "^5.0.3",
+    "elix": "^15.0.1",
     "polymer-cli": "^1.9.11",
     "webcomponent-qr-code": "^1.1.1"
   }

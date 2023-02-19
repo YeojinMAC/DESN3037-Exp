@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yeojin</title>
+
+    <script type="module">
+        import 'webcomponent-qr-code';
+        import '@google-web-components/google-chart';
+    </script>
+
+    <script type="module" src="node_modules/elix/define/Dialog.js">
+    </script>
+
 </head>
 <body>
-    Hello
+    
+    <qr-code data="hello world!"></qr-code>
+    
+    <qr-code data="hrrp://gbc.goodcodeclub.com"></qr-code>
+    
+    <google-chart data='[["Month", "Days"], ["Jan", 31]]'></google-chart>
+    
+    <p>
+        <button id="openButton" onclick="sampleDialog.open()">
+            Open dialog
+        </button>
+    </p>
+
+    <elix-dialog id="sampleDialog" aria-label="Sample dialog">
+        <!-- Dialog contents go here -->
+        <qr-code data="https://gbc.goodcodeclub.com"></qr-code>
+        <div style="margin-top: 1em; text-align: center;">
+            Here is the dialog.<br>
+            <button onclick="sampleDialog.close()">Close</button>
+        </div>
+
+    </elix-dialog>
+
 </body>
 </html>
